@@ -1,0 +1,7 @@
+.projects__grid {
+    display: flex;
+}
+
+.card:not(:last-child) {
+    margin-right: 40px;
+}
