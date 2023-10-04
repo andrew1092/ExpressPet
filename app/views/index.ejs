@@ -1,18 +1,26 @@
+<link rel="stylesheet" type="text/css" href="/Content/home.css" />
+
 <%- include ('partials/header.ejs') %>
 <%- include ('partials/main_nav.ejs') %>
 
     <!-- <img src="img/logo.png" alt="logo"> -->
 
-<main class="ontainer">
-<div class="jumbotron">
+<main class="container">
+    <div class="home__wrap" >
+            <h1>Welcome to <%= title %></h1>
+            <p>My name is Andrey and I'm a frontend developer</p>
+            <p>Currently I'm student and my ID is 301228461</p>
+            <p>This WebSite was written with Node.js and Express.js</p>
 
-    <h1>Welcome to <%= title %> Page</h1>
-    <p>This is the Home page</p>
     </div>
+    <Section>
+        <p>if you want to learn more about me click this button</p>
+        <a class="btn btn-primary"  href="/about">Know More About Me</a>
+    </Section>
 </main>
 
-      <%- include ('partials/bottom_nav.ejs') %>
-      <%- include ('partials/footer.ejs') %>
+<%- include ('partials/bottom_nav.ejs') %>
+<%- include ('partials/footer.ejs') %>
 
 
 

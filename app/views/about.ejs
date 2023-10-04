@@ -1,13 +1,28 @@
+<link rel="stylesheet" type="text/css" href="/Content/about.css" />
+
 <%- include ('partials/header.ejs') %>
 <%- include ('partials/main_nav.ejs') %>
 
     <!--<img src="img/logo.png" alt="logo">-->
 
-<main class="ontainer">
-<div class="jumbotron">
-
-    <h1>Welcome to <%= title %> Page</h1>
-    <p>Know more about Us</p>
+<main class="container">
+    <div class="jumbotron">
+        <div class="about__wrapper">
+            <h1>Andrey Yermakov Frontend Developer</h1>
+            <div class="about__photo">
+                <img src="/img/me.jpeg" width="300" height="300" alt="Great Developer" >
+            </div>
+            <p>Skilled frontend developer with 3 years of experience in developing and knowledge 
+                JavaScript, Vue.js, Vuex, Nuxt.js HTML, CSS, SCSS. Since September I have been a frontend developer in a product company, 
+                which creates website and applications. I have created responsive websites and applications using SPA, SSR.
+            </p>
+            <div>
+                <a href="https://www.linkedin.com/in/andrey-yermakov-864b531b3/" target="_blank">My Linkedin</a>
+            </div>
+            <div>
+                <a href="/documents/CV-Andrey-Yermakov.pdf" download="/documents/CV-Andrey-Yermakov.pdf">My Resume</a>
+            </div>
+        </div>
     </div>
 </main>
 
